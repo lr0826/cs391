@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    background-color: beige;
+}
+
+#page-wrapper{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+
+}
+nav{
+    background-color: lightgrey;
+    width: 30%;
+    min-height: 60vh;
+}
+nav a{
+    text-decoration: none;
+    font-size: calc(2px + 2vw);
+}
+nav li{
+    padding: 10px;
+    margin: 40px;
+    border: none;
+    background-color: whitesmoke;
+
+}
+nav ul{
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 23px auto;
+
+
+}
+
+main{
+
+    width: 70%;
+    min-height: 60vh;
+    padding: 20px 15px;
+    margin: 0 0;
+
+
+    background: floralwhite;
+    border: 1px solid #e5e7eb;
+
+
+}
+
+
+main h2{
+    text-align: center;
+    margin: 0 0 50px;
+    font-size: calc(18px + 0.6vw);
+}
+
+
+main p{
+    max-width: 80ch;
+    margin: 10px auto 30px;
+    line-height: 1.65;
+}
+
+main img{
+    display: block;
+    max-width: 420px;
+    width: 90%;
+    height: auto;
+    margin: 8px auto 30px;
+
+
+}
+
+
+main ul{
+    max-width: 70ch;
+    margin: 12px auto;
+    padding-left: 1.2rem;
+}
+main li{ margin-bottom: 20px; }
+
+/* References table */
+main table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px auto;
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+
+}
+main th,
+main td{
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+/*bellow is line is my mobile design*/
+@media screen and (max-width:750px){
+    #container{
+        flex-direction: column;
+
+    }
+    header{
+        text-align: center;
+    }
+    nav{
+        min-height: 0;
+        width: 100%;
+    }
+    nav a{
+        font-size: calc(2px + 2vw);
+    }
+    main{
+        height: auto;
+        width: 100%;
+    }
+    nav li{
+
+        margin: 2px;
+        padding: 20px;
+
+
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px auto;
+    }
+}
+/*bellow this line is my calculator design design*/
+
+#calculator{
+
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto 28px;
+    padding: 18px 20px;
+
+
+    background: lightcyan;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px;
+}
+
+
+#calculator h2{
+    margin: 0 0 12px;
+    font-size: calc(18px + 0.6vw);
+}
+
+
+#calculator label{
+    display: block;
+    margin: 20px 0 6px;
+    font-weight: 700;
+    color: #374151;
+    font-size: calc(14px + 0.2vw);
+}
+#calculator input[type="text"]{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    color: lightgray;
+    font-size: calc(14px + 0.2vw);
+    outline: none;
+}
+
+
+#calculator .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+
+
+#calculator button{
+    background: #ffffff;
+    color: #2a2152;
+    border: 2px solid #cfc7ff;
+    border-radius: 999px;
+    font-weight: 800;
+    padding: 12px 0;
+    text-align: center;
+    margin: 0 8px 8px 0;
+    width: calc((100% - 24px) / 3);
+
+}
+/* Labels */
+#calculator label{
+    display: block;
+    margin: 16px 0 6px;
+    font-weight: 600;
+    font-size: calc(14px + 0.2vw);
+
+    background: lightyellow;
+    padding: 4px 8px;
+    border-radius: 6px;
+    width: fit-content;
+}
+/* Inputs */
+#calculator input{
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: calc(14px + 0.2vw);
+    outline: none;
+}
+
+
+
+/* Output as a badge */
+#calculator #output{
+    margin-top: 12px;
+    min-height: 1.9em;
+    font-weight: 900;
+    font-size: calc(16px + 0.3vw);
+    color: #1f1735;
+
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #efeaff;
+    border: 1px solid #ded6ff;
+}
+
+
+
+
+
