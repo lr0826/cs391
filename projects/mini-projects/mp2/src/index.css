@@ -2,12 +2,12 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 80vw;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: calc(1.5rem + 2vw);
   line-height: 1.1;
 }
 
