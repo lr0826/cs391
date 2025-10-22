@@ -16,34 +16,41 @@ const List = styled.ul`
   padding-left: 0;
   list-style: none;
   display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin: 23px auto;
+    flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
     flex-wrap: wrap;
     @media (max-width: 750px){
       flex-direction: row;
       justify-content: center;
       width: 100%;
-      gap: 8px;
+      gap: 5px;
+        
     }
 `
 
 const Item = styled.li`
-  padding: 10px;
+    display: flex;
+    padding: 10px;
   margin: 40px;
   border: none;
   background-color: whitesmoke;
+    width: auto;
+    align-items: center;
 
   @media (max-width: 750px){
       margin: 0;
-      padding: 8px 12px;
+      padding: 5px 6px;
   }
 `
 
 const StyledLink = styled(Link)`
+    display: inline-flex;
   text-decoration: none;
-  font-size: calc(2px + 2vw);
+    text-align: center;
+  font-size: calc(0px + 1.5vw);
   font-weight: 500;
+    width: 80%;
 `
 export default function Nav(){
 

@@ -11,11 +11,9 @@ import References from "./mains/References.tsx";
 import Achievements from "./mains/Achievements.tsx";
 
 const PageWrapper = styled.div`
-  width: 100vw;
+  width: 60vw;
   min-height: 100vh;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
     background: floralwhite;
     font-family: 'Poppins', sans-serif;
 `
@@ -32,7 +30,7 @@ const Container = styled.div`
 
 const Main = styled.main`
   width: 70%;
-  min-height: 60vh;
+  min-height: 100vh;
   padding: 20px 15px;
   margin: 0;
   background: floralwhite;
@@ -62,7 +60,7 @@ const Main = styled.main`
   }
   li{ margin-bottom: 20px; }
   table{
-    width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
     margin: 12px auto;
     background: #fff;
@@ -73,11 +71,12 @@ const Main = styled.main`
     text-align: left;
     padding: 10px 12px;
     border-bottom: 1px solid #e5e7eb;
+      overflow-wrap: anywhere;
   }
 
   @media (max-width: 750px){
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
   }
 `
 export default function Root(){
