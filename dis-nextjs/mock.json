@@ -1,0 +1,41 @@
+{
+  "mockPosts": [
+    {
+      "id": "id1",
+      "title": "favorite class",
+      "content": "cs391 is my favorite class, what is your favorite class?",
+      "upvotes": 20,
+      "downvotes": 1
+    },
+    {
+      "id": "id2",
+      "title": "favorite class",
+      "content": "cs320 is my favorite class, what is your favorite class?",
+      "upvotes": 10,
+      "downvotes": 10
+    },
+    {
+      "id": "id3",
+      "title": "favorite class",
+      "content": "cs131 is my favorite class, what is your favorite class?",
+      "upvotes": 0,
+      "downvotes": 10
+    },
+    {
+      "id": "id4",
+      "title": "favorite class",
+      "content": "cs411 is my favorite class, what is your favorite class?",
+      "upvotes": 0,
+      "downvotes": 100
+    },
+    {
+      "id": "id5",
+      "title": "favorite class",
+      "content": "cs332 is my favorite class, what is your favorite class?",
+      "upvotes": 0,
+      "downvotes": 0
+    }
+
+
+  ]
+}

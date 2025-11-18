@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dd7d10c-7270-4af0-9186-259ac26cdb75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../dis/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dis/app/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dis/app/components/PostPreview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dis/types/PostProps.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projects/mini-projects/mp4/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projects/mini-projects/mp4/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projects/mini-projects/mp4/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projects/mini-projects/mp4/lib/getData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projects/mini-projects/mp4/types/BookTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dis-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Dis-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dis-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Dis-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dis-3/src/components/ArtworkPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../dis-3/src/components/ArtworkPreview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dis-3/src/components/ArtworksListContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../dis-3/src/components/ArtworksListContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dis-3/src/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../dis-3/src/type.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="34q3jWWI28XJJ7CqJSbw1VahBUB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "nodejs_interpreter_path": "node",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dd7d10c-7270-4af0-9186-259ac26cdb75" name="Changes" comment="" />
+      <created>1761927409436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761927409436</updated>
+      <workItem from="1761927410539" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
